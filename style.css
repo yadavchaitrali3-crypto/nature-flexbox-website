@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Header */
+.header {
+    background-color: #2e8b57;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+/* Navbar using Flexbox */
+.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: #1f5f3a;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 15px 25px;
+}
+
+.navbar a:hover {
+    background-color: #3cb371;
+}
+
+/* Main section using Flexbox */
+.main {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 40px;
+    gap: 20px;
+
+
+
+
+    /* Background image */
+    background-image: url("https://media.istockphoto.com/id/1489061272/photo/crystal-earth-on-ferns-in-green-grass-forest-with-sunlight-environment-save-the-world-earth.jpg?s=612x612&w=0&k=20&c=WVbWtdV-FrGafT5SsilWOTT8nd8_2x5EiAp8gn7jS4k=");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.card {
+    background-color: rgba(255, 255, 255, 0.85);
+    width: 260px;
+    padding: 25px;
+    border-radius: 10px;
+    text-align: center;
+}
